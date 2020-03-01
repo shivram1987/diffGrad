@@ -12,7 +12,7 @@ IEEE TNNLS version: https://ieeexplore.ieee.org/document/8939562
 ## Citation
 
 
-If you use this code in your research, we would appreciate a citation to the original
+If you use this code in your research, we would appreciate a citation to the original [paper](paper.pdf)
 
       @article{dubey2019diffgrad,
       title={diffGrad: An Optimization Method for Convolutional Neural Networks},
