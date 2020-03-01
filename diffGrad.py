@@ -1,3 +1,4 @@
+# This diffGrad implementation has a bug. Use diffGrad_v2.py.
 import math
 import torch
 from torch.optim.optimizer import Optimizer
@@ -96,10 +97,9 @@ class diffgrad(Optimizer):
                 # compute diffgrad coefficient (dfc)
                 diff = abs(previous_grad - grad)
                 dfc = 1. / (1. + torch.exp(-diff))
-                #state['previous_grad'] = grad %used in paper but has the bug that previous grad is overwritten with grad and diff becomes always zero. Fixed in the next line.
-                state['previous_grad'] = grad.clone()
-				
-				# update momentum with dfc
+                state['previous_grad'] = grad %used in paper but has the bug that previous grad is overwritten with grad and diff becomes always zero. Fixed in the next line.
+                		
+		# update momentum with dfc
                 exp_avg1 = exp_avg * dfc
 
                 step_size = group['lr'] * math.sqrt(bias_correction2) / bias_correction1
