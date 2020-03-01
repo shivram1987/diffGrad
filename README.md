@@ -1,6 +1,4 @@
-# diffGrad 
-
-diffGrad: An Optimization Method for Convolutional Neural Networks
+# diffGrad: An Optimization Method for Convolutional Neural Networks 
 
 <strong><span class="color-blue"></span><sup><img style="display:inline"
                       src="https://josaa.nic.in/webinfocms/Images/newicon.gif" alt="" /></sup> <span class="newNews">It is recommended to use diffGrad_v2.py which fixes a bug in diffGrad.py.
