@@ -12,7 +12,7 @@ Stochastic Gradient Decent (SGD) is one of the core techniques behind the succes
 ## Citation
 
 
-If you use this code in your research, we would appreciate a citation to the original [paper](paper.pdf)
+If you use this code in your research, please cite as:
 
       @article{dubey2019diffgrad,
       title={diffGrad: An Optimization Method for Convolutional Neural Networks},
