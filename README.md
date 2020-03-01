@@ -15,5 +15,6 @@ All experiments are perfomed using following framework: https://github.com/kuang
 Please cite this work as: S.R. Dubey, S. Chakraborty, S.K. Roy, S. Mukherjee, S.K. Singh, and B.B. Chaudhuri. diffGrad: An Optimization Method for Convolutional Neural Networks. <i>IEEE Transactions on Neural Networks and Learning Systems</i>, 2019.
 
 
+## License
 
-Copyright (©2019): Shiv Ram Dubey, Indian Institute of Information Technology, Sri City, Chittoor, A.P., India
+Copyright (©2019): Shiv Ram Dubey, Indian Institute of Information Technology, Sri City, Chittoor, A.P., India. Released under the MIT License. See [LICENSE](LICENSE) for details.
