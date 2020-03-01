@@ -12,6 +12,7 @@ IEEE TNNLS version: https://ieeexplore.ieee.org/document/8939562
 ## Citation
 
 If you use this code in your research, we would appreciate a citation to the original
+
       @article{dubey2019diffgrad,
       title={diffGrad: An Optimization Method for Convolutional Neural Networks},
       author={Dubey, Shiv Ram and Chakraborty, Soumendu and Roy, Swalpa Kumar and Mukherjee, Snehasis and Singh, Satish Kumar and Chaudhuri, Bidyut Baran},
@@ -19,10 +20,6 @@ If you use this code in your research, we would appreciate a citation to the ori
       year={2019},
       publisher={IEEE}
       }
-
-    
-
-
 
 ## Acknowledgement
 
