@@ -1,7 +1,7 @@
 # [diffGrad: An Optimization Method for Convolutional Neural Networks](https://ieeexplore.ieee.org/document/8939562) 
 
 <strong><span class="color-blue"></span><sup><img style="display:inline"
-                      src="https://josaa.nic.in/webinfocms/Images/newicon.gif" alt="" /></sup> <span class="newNews">It is recommended to use diffGrad_v2.py which fixes a bug in diffGrad.py.
+                      src="https://josaa.nic.in/webinfocms/Images/newicon.gif" alt="" /></sup> <span class="newNews">It is recommended to use diffGrad_v2.py which fixes [a issue](https://github.com/shivram1987/diffGrad/issues/2) in diffGrad.py.
 
 <strong><span class="color-blue"></span><sup><img style="display:inline"
                       src="https://josaa.nic.in/webinfocms/Images/newicon.gif" alt="" /></sup> <span class="newNews"> It is also recommended to read [arXiv version](https://arxiv.org/abs/1909.11015) (It is updated with new results)
