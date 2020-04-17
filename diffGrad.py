@@ -97,7 +97,7 @@ class diffgrad(Optimizer):
                 # compute diffgrad coefficient (dfc)
                 diff = abs(previous_grad - grad)
                 dfc = 1. / (1. + torch.exp(-diff))
-                state['previous_grad'] = grad %used in paper but has the bug that previous grad is overwritten with grad and diff becomes always zero. Fixed in the next line.
+                state['previous_grad'] = grad # used in paper but has the bug that previous grad is overwritten with grad and diff becomes always zero. Fixed in the next line.
                 		
 		# update momentum with dfc
                 exp_avg1 = exp_avg * dfc
