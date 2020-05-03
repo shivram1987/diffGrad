@@ -3,12 +3,15 @@
 <span class="color-blue"></span><sup><img style="display:inline" 
 src="http://personal.strath.ac.uk/jinchang.ren/index_files/new.gif" alt="" /></sup> <span class="newNews">The PyTorch implementation of diffGrad optimization can be found in [torch-optimizer](https://pypi.org/project/torch-optimizer/#diffgrad)
   
-##Uses
+## Uses
 
-<pre><span class="kn">import</span> <span class="nn">torch_optimizer</span> <span class="k">as</span> <span class="nn">optim</span>
+<pre>
+<span class="c1">pip install torch-optimizer</span>
+
+<span class="kn">import</span> <span class="nn">torch_optimizer</span> <span class="k">as</span> <span class="nn">optimizer</span>
 
 <span class="c1"># model = ...</span>
-<span class="n">optimizer</span> <span class="o">=</span> <span class="n">optim</span><span class="o">.</span><span class="n">DiffGrad</span><span class="p">(</span>
+<span class="n">optimizer</span> <span class="o">=</span> <span class="n">optimzer</span><span class="o">.</span><span class="n">DiffGrad</span><span class="p">(</span>
     <span class="n">m</span><span class="o">.</span><span class="n">parameters</span><span class="p">(),</span>
     <span class="n">lr</span><span class="o">=</span> <span class="mf">1e-3</span><span class="p">,</span>
     <span class="n">betas</span><span class="o">=</span><span class="p">(</span><span class="mf">0.9</span><span class="p">,</span> <span class="mf">0.999</span><span class="p">),</span>
