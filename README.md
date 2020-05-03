@@ -3,9 +3,9 @@
 <span class="color-blue"></span><sup><img style="display:inline" 
 src="http://personal.strath.ac.uk/jinchang.ren/index_files/new.gif" alt="" /></sup> <span class="newNews">The PyTorch implementation of diffGrad optimization can be found in [torch-optimizer](https://pypi.org/project/torch-optimizer/#diffgrad) and easy to use.
   
-## Uses
+## How to use
 
-<pre> <span class="c1">pip install torch-optimizer</span>
+<pre><span class="c1">pip install torch-optimizer</span>
 
 <span class="kn">import</span> <span class="nn">torch_optimizer</span> <span class="k">as</span> <span class="nn">optimizer</span>
 
