@@ -1,5 +1,9 @@
 # [diffGrad: An Optimization Method for Convolutional Neural Networks](https://ieeexplore.ieee.org/document/8939562) 
 
+<span class="color-blue">[24/03/2020]</span><sup><img style="display:inline" 
+src="http://personal.strath.ac.uk/jinchang.ren/index_files/new.gif" alt="" /></sup> <span class="newNews">The PyTorch implementation of diffGrad optimization can be found in [torch-optimizer](https://pypi.org/project/torch-optimizer/#diffgrad)
+
+
 <span class="color-blue"></span><sup><img style="display:inline"
                       src="https://josaa.nic.in/webinfocms/Images/newicon.gif" alt="" /></sup> <span class="newNews">It is recommended to use diffGrad_v2.py which fixes [an issue](https://github.com/shivram1987/diffGrad/issues/2) in diffGrad.py.
 
