@@ -1,7 +1,22 @@
 # [diffGrad: An Optimization Method for Convolutional Neural Networks](https://ieeexplore.ieee.org/document/8939562) 
 
-<span class="color-blue">[24/03/2020]</span><sup><img style="display:inline" 
+<span class="color-blue"></span><sup><img style="display:inline" 
 src="http://personal.strath.ac.uk/jinchang.ren/index_files/new.gif" alt="" /></sup> <span class="newNews">The PyTorch implementation of diffGrad optimization can be found in [torch-optimizer](https://pypi.org/project/torch-optimizer/#diffgrad)
+  
+##Uses
+
+<pre><span class="kn">import</span> <span class="nn">torch_optimizer</span> <span class="k">as</span> <span class="nn">optim</span>
+
+<span class="c1"># model = ...</span>
+<span class="n">optimizer</span> <span class="o">=</span> <span class="n">optim</span><span class="o">.</span><span class="n">DiffGrad</span><span class="p">(</span>
+    <span class="n">m</span><span class="o">.</span><span class="n">parameters</span><span class="p">(),</span>
+    <span class="n">lr</span><span class="o">=</span> <span class="mf">1e-3</span><span class="p">,</span>
+    <span class="n">betas</span><span class="o">=</span><span class="p">(</span><span class="mf">0.9</span><span class="p">,</span> <span class="mf">0.999</span><span class="p">),</span>
+    <span class="n">eps</span><span class="o">=</span><span class="mf">1e-8</span><span class="p">,</span>
+    <span class="n">weight_decay</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span>
+<span class="p">)</span>
+<span class="n">optimizer</span><span class="o">.</span><span class="n">step</span><span class="p">()</span>
+</pre>
 
 
 <span class="color-blue"></span><sup><img style="display:inline"
