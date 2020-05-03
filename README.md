@@ -11,7 +11,7 @@ src="http://personal.strath.ac.uk/jinchang.ren/index_files/new.gif" alt="" /></s
 
 <span class="c1"># model = ...</span>
 <span class="n">optimizer</span> <span class="o">=</span> <span class="n">optimzer</span><span class="o">.</span><span class="n">DiffGrad</span><span class="p">(</span>
-    <span class="n">m</span><span class="o">.</span><span class="n">parameters</span><span class="p">(),</span>
+    <span class="n">model</span><span class="o">.</span><span class="n">parameters</span><span class="p">(),</span>
     <span class="n">lr</span><span class="o">=</span> <span class="mf">1e-3</span><span class="p">,</span>
     <span class="n">betas</span><span class="o">=</span><span class="p">(</span><span class="mf">0.9</span><span class="p">,</span> <span class="mf">0.999</span><span class="p">),</span>
     <span class="n">eps</span><span class="o">=</span><span class="mf">1e-8</span><span class="p">,</span>
