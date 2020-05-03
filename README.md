@@ -21,6 +21,7 @@ src="http://personal.strath.ac.uk/jinchang.ren/index_files/new.gif" alt="" /></s
 <span class="n">optimizer</span><span class="o">.</span><span class="n">step</span><span class="p">()</span>
 </pre>
 
+## Issues
 
 <span class="color-blue"></span><sup><img style="display:inline"
                       src="https://josaa.nic.in/webinfocms/Images/newicon.gif" alt="" /></sup> <span class="newNews">It is recommended to use diffGrad_v2.py which fixes [an issue](https://github.com/shivram1987/diffGrad/issues/2) in diffGrad.py.
