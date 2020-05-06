@@ -26,7 +26,7 @@ src="http://personal.strath.ac.uk/jinchang.ren/index_files/new.gif" alt="" /></s
                       src="https://josaa.nic.in/webinfocms/Images/newicon.gif" alt="" /></sup> <span class="newNews">It is recommended to use diffGrad_v2.py which fixes [an issue](https://github.com/shivram1987/diffGrad/issues/2) in diffGrad.py.
 
 <span class="color-blue"></span><sup><img style="display:inline"
-                      src="https://josaa.nic.in/webinfocms/Images/newicon.gif" alt="" /></sup> <span class="newNews"> It is also recommended to read [arXiv version](https://arxiv.org/abs/1909.11015v3) (It is updated with new results)
+                      src="https://josaa.nic.in/webinfocms/Images/newicon.gif" alt="" /></sup> <span class="newNews"> It is also recommended to refer [arXiv version](https://arxiv.org/abs/1909.11015v3) for the updated results.
 
 ## Abstract
 
