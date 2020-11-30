@@ -43,7 +43,7 @@ If you use this code in your research, please cite as:
       journal={IEEE Transactions on Neural Networks and Learning Systems},
       volume={31},
       no={11},
-      pp.={4500 - 4511}
+      pp.={4500 - 4511},
       year={2020},
       publisher={IEEE}
       }
