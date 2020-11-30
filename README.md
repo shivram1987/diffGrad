@@ -41,7 +41,10 @@ If you use this code in your research, please cite as:
       title={diffGrad: An Optimization Method for Convolutional Neural Networks},
       author={Dubey, Shiv Ram and Chakraborty, Soumendu and Roy, Swalpa Kumar and Mukherjee, Snehasis and Singh, Satish Kumar and Chaudhuri, Bidyut Baran},
       journal={IEEE Transactions on Neural Networks and Learning Systems},
-      year={2019},
+      volume={31},
+      no={11},
+      pp.={4500 - 4511}
+      year={2020},
       publisher={IEEE}
       }
 
